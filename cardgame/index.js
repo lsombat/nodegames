@@ -3,6 +3,7 @@ var sca=0;
 var scb=0;
 var round =1;
 var envido =27;
+var winnerscore=30;
 var game = require("./game");
 
 var pack = game.createPack();  
@@ -85,7 +86,7 @@ if(myPack.length<=4) { pack = game.createPack(); myPack = game.shufflePack(pack)
 console.log("Global Scores: A="+sca + ', B=' + scb);
 round++;
 
-} while (sca<30 && scb<30);
+} while (sca<winnerscore && scb<winnerscore);
 
 //var lastCard = handA.length-1;  
 //console.log("Last card's index: " + lastCard);  
