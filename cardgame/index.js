@@ -87,14 +87,9 @@ round++;
 
 } while (sca<30 && scb<30);
 
-
-
-
 //var lastCard = handA.length-1;  
 //console.log("Last card's index: " + lastCard);  
 //var newHand = game.playCard(1, handA, lastCard);  
 //console.log("Cards in my new hand are:");  
 //console.log(newHand);  
 //console.log();  
-
-
