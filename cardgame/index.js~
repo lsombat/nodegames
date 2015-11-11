@@ -42,14 +42,14 @@ if (scoreb>=envido) {
 } else {
 	console.log("B: I don't want");
 	sca++;
-	console.log("A win : got 1");
+	console.log("A win");
 }
 } else { console.log("A: Pass"); 
 if (scoreb>=envido) { 
 console.log("B: Calls Envido"); 
 console.log("A: I don't want");
 scb++;
-console.log("B win : got 1");
+console.log("B win");
 } else { console.log("B: Pass"); }
 }
 astart=false;
